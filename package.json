@@ -1,0 +1,17 @@
+{
+  "name": "newfacebook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy":"gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/three": "^0.146.0",
+    "gh-pages": "^4.0.0"
+  }
+}

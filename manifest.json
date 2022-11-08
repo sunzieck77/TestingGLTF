@@ -1,0 +1,17 @@
+{
+    "name": "My Style2",
+    "version":"0.2",
+    "manifest_version":3,
+    "description":"testing",
+    "content_scripts": [
+        {
+            "js":["index.js"],
+            "matches":["https://www.facebook.com/*"]
+        },
+        {
+            "css":["controls.css"],
+            "matches":["https://www.facebook.com/*"]
+        }
+    ]
+
+}
